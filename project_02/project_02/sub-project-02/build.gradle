@@ -1,0 +1,5 @@
+task("demo2") {
+    doLast {
+        println("This is the first task of sub project 02")
+    }
+}

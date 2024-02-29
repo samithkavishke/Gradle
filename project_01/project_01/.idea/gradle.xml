@@ -9,8 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/sub-project-01" />
             <option value="$PROJECT_DIR$/sub-project-02" />
+            <option value="$PROJECT_DIR$/subs/sub-project-01" />
           </set>
         </option>
       </GradleProjectSettings>

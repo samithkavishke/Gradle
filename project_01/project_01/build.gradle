@@ -2,15 +2,15 @@ plugins {
     id 'java'
 }
 
-group = 'org.example'
-version = '1.0-SNAPSHOT'
+//group = 'org.example'
+//version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
-//evaluationDependsOnChildren()
 
 dependencies {
+
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
@@ -22,24 +22,36 @@ test {
 
 //
 //// 02. which one is the first project to be configured?
-allprojects {
-    task('hello') {
-        doLast {
-            println "Hello, world! ${project.name}"
-        }
-    }
-}
+//allprojects {
+//    group = project.group
+//    version = project.version
+//    tasks.register('hello') {
+//        doLast {
+//            println "Hello, world! ${project.name}"
+//        }
+//    }
+//}
 
 
 
 //// 04. uncomment the following line and run the command ./gradlew hello goodbye
 //allprojects {
-//    task('hello') {
+//    group = project.group
+//    version = project.version
+//    tasks.register('hello') {
 //        doLast {
 //            println "Hello, world! ${project.name}"
 //        }
 //    }
-// println "this is the configuration phase"
+//    println "this is the configuration phase ${project.name}"
+//}
+
+//subprojects {
+//    tasks.register('Greeting') {
+//        doLast {
+//            println "Greeting, world! ${project.name}"
+//        }
+//    }
 //}
 
 //05.
@@ -48,4 +60,9 @@ allprojects {
 //06.
 //evaluationDependsOnChildren()
 //project('sub-project-01').tasks['hello'].mustRunAfter(project('sub-project-02').tasks['goodbye'])
+
+//07.
+//tasks.named('build').configure {
+//    dependsOn('hello')
+//}
 
