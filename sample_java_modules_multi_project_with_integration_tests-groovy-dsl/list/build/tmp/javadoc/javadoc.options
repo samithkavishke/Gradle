@@ -1,0 +1,8 @@
+--module-path 'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\list\\build\\classes\\java\\main'
+-d 'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\list\\build\\docs\\javadoc'
+-doctitle 'list 1.0.2 API'
+-notimestamp 
+-quiet 
+-windowtitle 'list 1.0.2 API'
+'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\list\\src\\main\\java\\module-info.java'
+'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\list\\src\\main\\java\\org\\gradle\\sample\\list\\LinkedList.java'

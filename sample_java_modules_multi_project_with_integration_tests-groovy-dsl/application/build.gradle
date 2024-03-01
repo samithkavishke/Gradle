@@ -1,0 +1,14 @@
+plugins {
+    id 'myproject.java-conventions'
+    id 'application'
+}
+
+dependencies {
+    implementation project(':utilities')
+//    implementation project(':list')
+}
+
+application {
+    mainModule = 'org.gradle.sample.app'
+    mainClass = 'org.gradle.sample.app.Main'
+}

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.gradle.sample.utilities","l":"StringUtils"}];updateSearchResults();

@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"org.gradle.sample.utilities","c":"StringUtils","l":"join(LinkedList)","u":"join(org.gradle.sample.list.LinkedList)"},{"p":"org.gradle.sample.utilities","c":"StringUtils","l":"split(String)","u":"split(java.lang.String)"},{"p":"org.gradle.sample.utilities","c":"StringUtils","l":"StringUtils()","u":"%3Cinit%3E()"}];updateSearchResults();

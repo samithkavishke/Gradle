@@ -1,0 +1,10 @@
+--module-path 'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\utilities\\build\\classes\\java\\main;C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\list\\build\\libs\\list-1.0.2.jar'
+-d 'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\utilities\\build\\docs\\javadoc'
+-doctitle 'utilities 1.0.2 API'
+-notimestamp 
+-quiet 
+-windowtitle 'utilities 1.0.2 API'
+'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\utilities\\src\\main\\java\\module-info.java'
+'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\utilities\\src\\main\\java\\org\\gradle\\sample\\utilities\\JoinUtils.java'
+'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\utilities\\src\\main\\java\\org\\gradle\\sample\\utilities\\SplitUtils.java'
+'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\utilities\\src\\main\\java\\org\\gradle\\sample\\utilities\\StringUtils.java'

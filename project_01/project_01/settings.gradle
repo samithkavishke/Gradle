@@ -1,13 +1,13 @@
 rootProject.name = 'project_01'
 
 //01.
-//include "sub-project-01", "sub-project-02"
+include "sub-project-01", "sub-project-02","hub"
 // ./gradlew projects
 
 //02.a.
-//project(':sub-project-01').projectDir = file("subs${File.separator}sub-project-01")
+project(':sub-project-01').projectDir = file("subs${File.separator}sub-project-01")
 
 //03.
-//println "Hello, world! this is settings.gradle file. ${rootProject.name}"
+println "Hello, world! this is settings.gradle file. ${rootProject.name}"
 
 

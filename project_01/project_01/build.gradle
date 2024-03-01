@@ -35,34 +35,34 @@ test {
 
 
 //// 04. uncomment the following line and run the command ./gradlew hello goodbye
-//allprojects {
-//    group = project.group
-//    version = project.version
-//    tasks.register('hello') {
-//        doLast {
-//            println "Hello, world! ${project.name}"
-//        }
-//    }
-//    println "this is the configuration phase ${project.name}"
-//}
+allprojects {
+    group = project.group
+    version = project.version
+    tasks.register('hello') {
+        doLast {
+            println "Hello, world! ${project.name}"
+        }
+    }
+    println "this is the configuration phase ${project.name}"
+}
 
-//subprojects {
-//    tasks.register('Greeting') {
-//        doLast {
-//            println "Greeting, world! ${project.name}"
-//        }
-//    }
-//}
+subprojects {
+    tasks.register('Greeting') {
+        doLast {
+            println "Greeting, world! ${project.name}"
+        }
+    }
+}
 
 //05.
-//project('sub-project-01').tasks['hello'].mustRunAfter(project('sub-project-02').tasks['hello'])
+project('sub-project-01').tasks['hello'].mustRunAfter(project('sub-project-02').tasks['hello'])
 
 //06.
-//evaluationDependsOnChildren()
-//project('sub-project-01').tasks['hello'].mustRunAfter(project('sub-project-02').tasks['goodbye'])
+evaluationDependsOnChildren()
+project('sub-project-01').tasks['hello'].mustRunAfter(project('sub-project-02').tasks['goodbye'])
 
 //07.
-//tasks.named('build').configure {
-//    dependsOn('hello')
-//}
+tasks.named('build').configure {
+    dependsOn('hello')
+}
 

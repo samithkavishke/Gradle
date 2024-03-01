@@ -1,0 +1,1 @@
+moduleSearchIndex = [{"l":"org.gradle.sample.list"}];updateSearchResults();

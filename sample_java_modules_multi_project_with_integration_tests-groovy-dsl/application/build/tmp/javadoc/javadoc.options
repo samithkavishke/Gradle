@@ -1,0 +1,9 @@
+--module-path 'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\application\\build\\classes\\java\\main;C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\utilities\\build\\libs\\utilities-1.0.2.jar;C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\list\\build\\libs\\list-1.0.2.jar'
+-d 'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\application\\build\\docs\\javadoc'
+-doctitle 'application 1.0.2 API'
+-notimestamp 
+-quiet 
+-windowtitle 'application 1.0.2 API'
+'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\application\\src\\main\\java\\module-info.java'
+'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\application\\src\\main\\java\\org\\gradle\\sample\\app\\Main.java'
+'C:\\Projects\\Compiler\\TechTalk\\Gradle\\sample_java_modules_multi_project_with_integration_tests-groovy-dsl\\application\\src\\main\\java\\org\\gradle\\sample\\app\\MessageUtils.java'

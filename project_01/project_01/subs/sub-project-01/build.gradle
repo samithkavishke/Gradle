@@ -1,0 +1,5 @@
+tasks.register('goodbye') {
+    doLast {
+        println "hure, world!  ${project.name}"
+    }
+}
